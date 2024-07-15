@@ -1,0 +1,25 @@
+.paragraph-box {
+    height: 60px;
+    width: 70px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.list-style-type {
+    list-style-type: none;
+    width: 12%;
+}
+
+.paragraph-box1 {
+    height: 60px;
+    width: 70px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 15px;
+}
+
+.image-height {
+    height: 40px;
+}

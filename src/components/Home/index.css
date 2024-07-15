@@ -1,0 +1,38 @@
+.styling-of-react-tiles-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.creating-a-box {
+    width: 60%; 
+    border-style: solid; 
+    border-color: black; 
+    border-width: 3px;
+    height: 300px;
+    margin-left: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.enter-your-name {
+    text-decoration: underline;
+}
+
+.width-of-name {
+    width: 250px;
+    height: 40px;
+    border-style: solid; 
+    border-color: black;
+}
+
+.styling-for-play-button {
+    height: 32px;
+    width: 180px; 
+    background-color: blue; 
+    color: white; 
+    border-width: 0px; 
+    border-radius: 10px; 
+    margin-top: 50px;
+}
