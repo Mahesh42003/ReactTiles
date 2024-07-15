@@ -178,7 +178,7 @@ class Board extends Component {
             const mappedData=emojisData.filter(each => each.Name !== data[0])
            
             this.setState(prevState => ({
-                score:prevState.score+1/2,
+                score:prevState.score+1,
                 emojisData:mappedData, 
                 count:0
             }))
@@ -189,7 +189,7 @@ class Board extends Component {
            
             emojisData:emojiImages,  
             count:0,
-            score:prevState.score-1/2,
+            score:prevState.score-1,
         }))
        }
     }
